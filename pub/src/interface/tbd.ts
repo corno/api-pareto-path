@@ -15,8 +15,4 @@ export type ParseFilePath = Function<
     TParsedFilePath
 >
 
-export type CreatePathParser = (
-    $: {
-        pathSeparator: string
-    },
-) => ParseFilePath
+export type ConvertWindowsPathToPosix = ($: string) => string
