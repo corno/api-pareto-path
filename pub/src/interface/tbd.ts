@@ -8,4 +8,15 @@ export type ParseFilePath_Data = {
     pathSeparator: string
 }
 
-export type ParseFilePath = Function<ParseFilePath_Data, TParsedFilePath>
+export type ParseFilePath = Function<
+    {
+        filePath: string,
+    },
+    TParsedFilePath
+>
+
+export type CreatePathParser = (
+    $: {
+        pathSeparator: string
+    },
+) => ParseFilePath
