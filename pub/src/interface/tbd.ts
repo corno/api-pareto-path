@@ -15,4 +15,4 @@ export type ParseFilePath = Function<
     TParsedFilePath
 >
 
-export type ConvertWindowsPathToPosix = ($: string) => string
+export type ConvertWindowsPathToPosixPath = ($: string) => string
