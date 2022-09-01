@@ -16,3 +16,6 @@ export type ParseFilePath = Function<
 >
 
 export type ConvertWindowsPathToPosixPath = ($: string) => string
+
+export type BaseName = ($: string) => string
+export type ContextPath = ($: string) => string
