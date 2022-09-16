@@ -1,8 +1,8 @@
 
-import { TParsedFilePath } from "../types/ParsedFilePath"
+import { TParsedFilePath } from "../types/ParsedFilePath.p"
 
 export type FParseFilePath = ($: {
-  readonly  "filePath": string,
+  readonly "filePath": string,
   readonly "pathSeparator": string
 }) => TParsedFilePath
 

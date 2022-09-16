@@ -7,11 +7,11 @@
   "author": "Corno",
   "license": "ISC",
   "dependencies": {
-    "pareto-core-types": "^0.2.0"
+    "pareto-core-types": "^0.6.0"
   },
   "files": [
     "dist"
   ],
-  "interface-fingerprint": "dbc3d3da62fde373ae80521a3d42f49e3d1b8102",
-  "content-fingerprint": "d60db5b5c1d8c78ba51cea9574af444db168d86f"
+  "interface-fingerprint": "007ec5c474831875e561203eb91b4aaaf635ee3e",
+  "content-fingerprint": "eda075908bb0aa85c43bae2559ffcc99c8cb1f16"
 }

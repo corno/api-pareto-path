@@ -1,4 +1,4 @@
 
-export * from "./types/ParsedFilePath"
+export * from "./types/ParsedFilePath.p"
 
-export * from "./algorithms/tbd"
+export * from "./functions/functions.p"
